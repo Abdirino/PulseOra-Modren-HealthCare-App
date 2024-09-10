@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: raleway;
+  src: url(../app/fonts/Raleway-Regular.ttf);
+}
+*{
+  font-family: raleway;
+  font-weight: bold;
+}
 /* ========================================== TAILWIND STYLES */
 @layer base {
   /* Remove scrollbar */
